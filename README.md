@@ -1,0 +1,2 @@
+# The-Candid-American
+The purpose of this site is to provide potential voters with the resources and information necessary to make a decision that they feel confident in. Without the cloud of bias or ulterior motives, Candid American is the platform made by citizens for citizens to get the hard facts. We hope that our many services-- which include nonpartisan candidate summaries, a discussion forum, and an interactive map, to name a few -- will be an invaluable resource in who you decide to support in the 2020 election.
