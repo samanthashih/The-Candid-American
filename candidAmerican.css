@@ -1,0 +1,88 @@
+/*NAV BAR*/
+.nav{
+    border:1px solid #333;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    z-index: 500;
+
+}
+.nav li{
+    display:inline;
+    padding-right: 40px;
+}
+
+.nav a{
+    display:inline-block;
+    padding:10px;
+}
+
+/*Now let's remove the bullets and the margins and padding from the list:*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  overflow: hidden;
+  background-color: #333;
+  display: inline-block;
+
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover*/
+li a:hover {
+  background-color: #111;
+}
+
+/*center images*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/*makes boxed text*/
+.boxed {
+  border: 1px black;
+}
+
+/*double spacing text*/
+.demopara {
+  line-height: 2 ;
+}
+
+/*make pic 200x200*/
+.img-square {
+  height: 105px;
+  width: 105px;
+  border-radius: 10%;
+}
+
+/*put caption under the faces*/
+figure {
+  float: left;
+  text-align: center;
+  font-size: 15px;
+  font-family: Times;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+/*style links*/
+a {
+  color: black;
+}
