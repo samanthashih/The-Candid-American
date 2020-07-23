@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="candidAmerican.css">
+<head>
+  <title>Voter Maps</title>
+  <a href="candidAmericanHome.html"><img src="https://pbs.twimg.com/media/EBXtN_gWwAA-N-s?format=jpg&name=small" class="center"></a>
+  <ul class="nav">
+    <li><a href="democraticCandidates.html">Democratic Candidates</a></li>
+    <li><a href="republicanCandidates.html">Republican Candidates</a></li>
+    <li><a href="voterMap.html">Voter Map</a></li>
+    <li><a href="voterReg.html">Voting Registration</a></li>
+    <li><a href="aboutCandid.html">About</a></li>
+  </ul>
+
+  <center><h1 >100 Years Back in Time</h1></center>
+
+
+</head>
+
+<body>
+
+<center><p style="background-color: rgb(120,120,255); color: white; font-size: 20px; padding: 30px;">Over the past 100 years, as a result of shifting population, beliefs, and social circumstances, electoral votes
+allocated to states increased and decreased. States that we currently classify as "red states" and "blue states" fluctuated. The
+following maps demonstrate these changes. </p></center>
+  <style>
+.mySlides {display:none;}
+h1 {
+  color: white;
+  background-color: rgb(255,80,80);
+  font-size: 30px;
+  padding: 8px;
+
+}
+
+</style>
+
+  <center><div class="w3-content w3-display-container">
+    <img class="mySlides" src="https://www.270towin.com/historical_maps/1920_large.png" >
+    <img class="mySlides" src="https://www.270towin.com/historical_maps/1924_large.png" >
+    <img class="mySlides" src="https://www.270towin.com/historical_maps/1928_large.png" >
+    <img class="mySlides" src="https://www.270towin.com/historical_maps/1932_large.png" >
+    <img class="mySlides" src="https://www.270towin.com/historical_maps/1936_large.png" >
+    <img class="mySlides" src="https://www.270towin.com/historical_maps/1940_large.png" >
+    <img class="mySlides" src="https://www.270towin.com/historical_maps/1944_large.png" >
+    <img class="mySlides" src="https://www.270towin.com/historical_maps/1948_large.png" >
+    <img class="mySlides" src="https://www.270towin.com/historical_maps/1952_large.png" >
+    <img class="mySlides" src="https://www.270towin.com/historical_maps/1956_large.png" >
+    <img class="mySlides" src="https://www.270towin.com/historical_maps/1960_large.png" >
+    <img class="mySlides" src="https://www.270towin.com/historical_maps/1964_large.png" >
+    <img class="mySlides" src="https://www.270towin.com/historical_maps/1968_large.png" >
+    <img class="mySlides" src="https://www.270towin.com/historical_maps/1972_large.png" >
+    <img class="mySlides" src="https://www.270towin.com/historical_maps/1976_large.png" >
+    <img class="mySlides" src="https://www.270towin.com/historical_maps/1980_large.png" >
+    <img class="mySlides" src="https://www.270towin.com/historical_maps/1984_large.png" >
+    <img class="mySlides" src="https://www.270towin.com/historical_maps/1988_large.png" >
+    <img class="mySlides" src="https://www.270towin.com/historical_maps/1992_large.png" >
+    <img class="mySlides" src="https://www.270towin.com/historical_maps/1996_large.png" >
+    <img class="mySlides" src="https://www.270towin.com/historical_maps/2000_large.png" >
+    <img class="mySlides" src="https://www.270towin.com/historical_maps/2004_large.png" >
+    <img class="mySlides" src="https://www.270towin.com/historical_maps/2008_large.png" >
+    <img class="mySlides" src="https://www.270towin.com/historical_maps/2012_large.png" >
+    <img class="mySlides" src="https://www.270towin.com/historical_maps/2016_large.png" >
+
+
+
+
+    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+  </div></center>
+
+  <script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    x[slideIndex-1].style.display = "block";
+  }
+  </script>
+  </body>
+</html>
